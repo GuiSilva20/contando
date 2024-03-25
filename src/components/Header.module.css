@@ -1,0 +1,15 @@
+.header {
+    background-color: var(--beige-200);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    align-items: center;
+
+}
+
+.header svg {
+    color: var(--white-200);
+    justify-content: space-between;
+}
+
+

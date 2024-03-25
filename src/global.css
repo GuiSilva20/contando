@@ -1,0 +1,48 @@
+:root{
+    --white-200: #F5FBEF;
+    --white-900: #fff;
+
+    --green-100: #92ad94;
+    --green-200: #92AD94;
+    --green-300: #748B75;
+    --green-700: #00B37E;
+    --green-800: #84C318;
+
+    --yellow-900: #fffa00;
+
+    --orange-100: #ffa500;
+    --orange-300: #ff9400;
+
+
+    --beige-200: #b38b00;
+    
+    --brown-500: #503D42;
+
+    
+    --red-500: #F75A68;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white-200);
+    color: var(--brown-500);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
